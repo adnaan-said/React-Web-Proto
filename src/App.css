@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  font-family: "Cairo";
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: 65px;
+  margin: 20px 0;
+  padding: 10px;
+  color: black;
+  z-index: 1;
+}
+
+.dashBoard{
+  width: 100vw;
+  background-color: white;
+  font-family: "Cairo";
+  text-align: center;
+}
+
+.textHolder {
+  text-transform: uppercase;
+  font-size: 40px;
+  padding: 10px;
+  color: black;
+  z-index: 1;
+}
+
+.grid{
+  width: 100vw;
+  background-color: whitesmoke;
+  font-family: "Cairo";
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 15px;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+}
